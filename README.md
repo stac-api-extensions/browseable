@@ -3,14 +3,14 @@
 - **Title:** Browseable
 - **OpenAPI specification:** TBD
 - **Conformance Classes:**
-  - <https://api.stacspec.org/v1.0.0-rc.2/browseable>
+  - <https://api.stacspec.org/v1.0.0-rc.3/browseable>
 - **Scope:** STAC API - Core
 - **[Extension Maturity Classification](https://github.com/radiantearth/stac-api-spec/tree/main/README.md#maturity-classification):** Proposal
 - **Dependencies:**
   - [STAC API - Core](https://github.com/radiantearth/stac-api-spec/tree/main/core)
 - **Owner**: @philvarner
 
-The Browseable conformance class (<https://api.stacspec.org/v1.0.0-rc.2/browseable>) provides a formal way
+The Browseable conformance class (<https://api.stacspec.org/v1.0.0-rc.3/browseable>) provides a formal way
 to advertise that all Items in the Catalog presented by a STAC API may be reached by following `child` and
 `item` link relations. In a non-API STAC Catalog, all items must be reachable via these relations to be
 considered in the catalog. With a STAC API Catalog, items are considered to be in the catalog if they are
@@ -63,7 +63,7 @@ This conformance class defines no endpoints.
 ## Example Landing Page for STAC API - Browseable
 
 This JSON is what would be expected from an API that implements *STAC API - Browseable*. Note that the
-`conformsTo` array contains `https://api.stacspec.org/v1.0.0-rc.2/browseable` and the `links` array
+`conformsTo` array contains `https://api.stacspec.org/v1.0.0-rc.3/browseable` and the `links` array
 contains `child` link relations.  The semantics of this conformance class imply that the the catalogs
 linked to by these `child` link relations then have further `child` or `item` link relations that
 eventually reach all items in this catalog.
@@ -76,8 +76,8 @@ eventually reach all items in this catalog.
     "description": "This Catalog aims to demonstrate the a simple landing page",
     "type": "Catalog",
     "conformsTo" : [
-        "https://api.stacspec.org/v1.0.0-rc.2/core",
-        "https://api.stacspec.org/v1.0.0-rc.2/browseable"
+        "https://api.stacspec.org/v1.0.0-rc.3/core",
+        "https://api.stacspec.org/v1.0.0-rc.3/browseable"
     ],
     "links": [
         {
