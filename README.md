@@ -1,7 +1,7 @@
 # STAC API - Browseable Extension Specification
 
 - **Title:** Browseable
-- **OpenAPI specification:** TBD
+- **OpenAPI specification:** None
 - **Conformance Classes:**
   - <https://api.stacspec.org/v1.0.0-rc.3/browseable>
 - **Scope:** STAC API - Core
