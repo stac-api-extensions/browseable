@@ -10,8 +10,6 @@
   - [STAC API - Core](https://github.com/radiantearth/stac-api-spec/tree/main/core)
 - **Owner**: @philvarner
 
-## Browseable
-
 The Browseable conformance class (<https://api.stacspec.org/v1.0.0-rc.2/browseable>) provides a formal way
 to advertise that all Items in the Catalog presented by a STAC API may be reached by following `child` and
 `item` link relations. In a non-API STAC Catalog, all items must be reachable via these relations to be
