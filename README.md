@@ -1,17 +1,14 @@
-# STAC API - Browseable Specification
+# STAC API - Browseable Extension Specification
 
-- [STAC API - Browseable Specification](#stac-api---browseable-specification)
-  - [Link Relations](#link-relations)
-  - [Endpoints](#endpoints)
-  - [Example Landing Page for STAC API - Browseable](#example-landing-page-for-stac-api---browseable)
-  - [Extensions](#extensions)
-
-- **OpenAPI specification:** none
-- **Conformance URIs:** 
-  - <https://api.stacspec.org/v1.0.0-rc.1/browseable>
-  - <https://api.stacspec.org/v1.0.0-rc.1/core>
-- **[Maturity Classification](../README.md#maturity-classification):** Proposal
-- **Dependencies**: [STAC API - Core](../core)
+- **Title:** Browseable
+- **OpenAPI specification:** TBD
+- **Conformance Classes:**
+  - <https://api.stacspec.org/v1.0.0-rc.3/browseable>
+- **Scope:** STAC API - Core
+- **[Extension Maturity Classification](https://github.com/radiantearth/stac-api-spec/tree/main/README.md#maturity-classification):** Proposal
+- **Dependencies:**
+  - [STAC API - Core](https://github.com/radiantearth/stac-api-spec/tree/main/core)
+- **Owner**: @philvarner
 
 A STAC API conforming to the *STAC API - Browseable* conformance class must be structured such that all 
 all Items in the catalog can be accessed by following `child` and `item` link relations. This is a more significant
