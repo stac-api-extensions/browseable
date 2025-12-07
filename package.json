@@ -5,7 +5,7 @@
     "repository": "https://github.com/radiantearth/stac-api-spec",
     "license": "Apache-2.0",
     "scripts": {
-        "check": "npm run check-markdown",
+        "test": "npm run check-markdown",
         "check-markdown": "remark . --frail"
     },
     "dependencies": {
